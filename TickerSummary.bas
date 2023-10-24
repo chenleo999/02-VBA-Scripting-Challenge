@@ -29,6 +29,9 @@ For ws = 2 To wscnt
     Next col
 Next ws
 
+'turn off screen update
+Application.ScreenUpdating = False
+
 'loop all sheets, run main process
 Dim wsh As Worksheet
 For Each wsh In Worksheets
@@ -146,10 +149,11 @@ For Each wsh In Worksheets
     Range("I1:Q1").Font.Bold = 1
     Range("O2:O4").Font.Bold = 1
     Columns("A:Q").AutoFit
-    
-    MsgBox "Sheet " & wsh.Name & " completed!"
 
 Next
+
+'turn screen update back on
+Application.ScreenUpdating = True
 
 MsgBox "All set!!!"
 
