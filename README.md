@@ -3,8 +3,8 @@
 On each sheet
   generated summary1 for each ticker
     columns: ticker, yearly change, percent change, total stock volume
-      helper columns deleted (open date, open price, close date, close price)
-    format all columns properly as requested
+      helper columns have been deleted (open date, open price, close date, close price)
+    format all columns as requested
   generated summary2 based on summary1
     ticker name & value of greatest increase %
     ticker name & value of greatest decrease %
