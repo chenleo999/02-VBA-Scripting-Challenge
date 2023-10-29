@@ -11,7 +11,7 @@ On each sheet:
     ticker name & value of greatest decrease %
     ticker name & value of greatest total stock volume
 
-When test this VBA script in the alphabetical_testing file, it finished within 3 min.
+When test this VBA script in the alphabetical_testing file, it finished within 2min.
 When run against the big yearly stock data, it took much longer time.
 
 Results are stored as screenshots png files named by years.
